@@ -1,0 +1,585 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# C# files
+*.cs text eol=crlf
+*.csproj text eol=crlf
+*.sln text eol=crlf
+*.xaml text eol=crlf
+*.config text eol=crlf
+*.manifest text eol=crlf
+*.settings text eol=crlf
+*.resx text eol=crlf
+*.Designer.cs text eol=crlf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+LICENSE text eol=lf
+README* text eol=lf
+CHANGELOG* text eol=lf
+CONTRIBUTING* text eol=lf
+FEATURES* text eol=lf
+TECHNICAL_DOCS* text eol=lf
+QUICKSTART* text eol=lf
+
+# Git files
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# GitHub files
+.github/** text eol=lf
+
+# Binary files
+*.exe binary
+*.dll binary
+*.pdb binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+*.svg binary
+*.webp binary
+*.zip binary
+*.7z binary
+*.rar binary
+
+# Archive files
+*.zip binary
+*.tar.gz binary
+*.tar.bz2 binary
+*.rar binary
+*.7z binary
+
+# Executable files
+*.exe binary
+*.msi binary
+*.msix binary
+*.appx binary
+*.appxbundle binary
+
+# Resource files
+*.resx text eol=crlf
+*.Designer.cs text eol=crlf
+*.settings text eol=crlf
+
+# Configuration files
+*.config text eol=crlf
+*.manifest text eol=crlf
+*.app.config text eol=crlf
+*.web.config text eol=crlf
+
+# Project files
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.sln text eol=crlf
+*.suo binary
+*.user text eol=crlf
+*.userosscache binary
+
+# XAML files
+*.xaml text eol=crlf
+*.xaml.cs text eol=crlf
+*.axaml text eol=crlf
+*.axaml.cs text eol=crlf
+
+# PowerShell files
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
+
+# Batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell scripts
+*.sh text eol=lf
+
+# YAML files
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# XML files
+*.xml text eol=crlf
+
+# CSS files
+*.css text eol=lf
+
+# JavaScript files
+*.js text eol=lf
+
+# TypeScript files
+*.ts text eol=lf
+
+# HTML files
+*.html text eol=lf
+
+# SQL files
+*.sql text eol=crlf
+
+# Log files
+*.log text eol=crlf
+
+# Temporary files
+*.tmp binary
+*.temp binary
+*.cache binary
+
+# IDE files
+*.swp binary
+*.swo binary
+*~ binary
+
+# OS files
+.DS_Store binary
+Thumbs.db binary
+ehthumbs.db binary
+ehthumbs_vista.db binary
+Desktop.ini binary
+$RECYCLE.BIN/ binary
+
+# Visual Studio files
+*.suo binary
+*.user binary
+*.userosscache binary
+*.sln.docstates binary
+*.userprefs binary
+*.pidb binary
+*.booproj binary
+*.svd binary
+*.pdb binary
+*.opendb binary
+*.opensdf binary
+*.sdf binary
+*.cachefile binary
+*.VC.db binary
+*.VC.VC.opendb binary
+
+# JetBrains files
+.idea/ binary
+*.iml binary
+*.ipr binary
+*.iws binary
+
+# Eclipse files
+.project binary
+.classpath binary
+.settings/ binary
+
+# NetBeans files
+nbproject/ binary
+build/ binary
+nbbuild/ binary
+dist/ binary
+nbdist/ binary
+.nb-gradle/ binary
+
+# Gradle files
+.gradle/ binary
+build/ binary
+!gradle/wrapper/gradle-wrapper.jar binary
+
+# Maven files
+target/ binary
+!.mvn/wrapper/maven-wrapper.jar binary
+
+# Node.js files
+node_modules/ binary
+npm-debug.log* binary
+yarn-debug.log* binary
+yarn-error.log* binary
+
+# Python files
+__pycache__/ binary
+*.py[cod] binary
+*$py.class binary
+*.so binary
+.Python binary
+env/ binary
+venv/ binary
+ENV/ binary
+env.bak/ binary
+venv.bak/ binary
+
+# Ruby files
+*.gem binary
+*.rbc binary
+/.config binary
+/coverage/ binary
+/InstalledFiles binary
+/pkg/ binary
+/spec/reports/ binary
+/spec/examples.txt binary
+/test/tmp/ binary
+/test/version_tmp/ binary
+/tmp/ binary
+
+# Rust files
+/target/ binary
+Cargo.lock binary
+
+# Go files
+*.exe binary
+*.exe~ binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.test binary
+*.out binary
+
+# PHP files
+/vendor/ binary
+composer.phar binary
+
+# Composer files
+composer.lock binary
+
+# Laravel files
+bootstrap/cache/ binary
+storage/ binary
+storage/*.key binary
+
+# Symfony files
+var/ binary
+var/cache/ binary
+var/log/ binary
+var/sessions/ binary
+
+# WordPress files
+wp-content/uploads/ binary
+wp-content/blogs.dir/ binary
+wp-content/upgrade/ binary
+wp-content/backup-db/ binary
+wp-content/advanced-cache.php binary
+wp-content/wp-cache-config.php binary
+wp-content/cache/ binary
+wp-content/cache/supercache/ binary
+
+# Drupal files
+sites/default/files/ binary
+sites/default/private/ binary
+sites/default/tmp/ binary
+
+# Joomla files
+/tmp/ binary
+/logs/ binary
+/cache/ binary
+/administrator/cache/ binary
+/administrator/logs/ binary
+
+# Magento files
+var/ binary
+media/ binary
+skin/ binary
+app/etc/local.xml binary
+
+# Prestashop files
+/cache/ binary
+/log/ binary
+/img/ binary
+/mails/ binary
+/modules/ binary
+/themes/ binary
+/translations/ binary
+/upload/ binary
+/var/ binary
+
+# OpenCart files
+system/cache/ binary
+system/logs/ binary
+image/cache/ binary
+image/data/ binary
+download/ binary
+system/download/ binary
+
+# Zend Framework files
+data/ binary
+logs/ binary
+temp/ binary
+
+# CodeIgniter files
+application/cache/ binary
+application/logs/ binary
+uploads/ binary
+
+# CakePHP files
+app/tmp/ binary
+app/webroot/files/ binary
+
+# Yii files
+runtime/ binary
+web/assets/ binary
+
+# FuelPHP files
+fuel/app/cache/ binary
+fuel/app/logs/ binary
+
+# Kohana files
+application/cache/ binary
+application/logs/ binary
+uploads/ binary
+
+# Zend Framework files
+data/ binary
+logs/ binary
+temp/ binary
+
+# Symfony files
+var/ binary
+var/cache/ binary
+var/log/ binary
+var/sessions/ binary
+
+# Laravel files
+bootstrap/cache/ binary
+storage/ binary
+storage/*.key binary
+
+# Composer files
+composer.lock binary
+
+# PHP files
+/vendor/ binary
+composer.phar binary
+
+# Go files
+*.exe binary
+*.exe~ binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.test binary
+*.out binary
+
+# Rust files
+/target/ binary
+Cargo.lock binary
+
+# Node.js files
+node_modules/ binary
+npm-debug.log* binary
+yarn-debug.log* binary
+yarn-error.log* binary
+
+# Python files
+__pycache__/ binary
+*.py[cod] binary
+*$py.class binary
+*.so binary
+.Python binary
+env/ binary
+venv/ binary
+ENV/ binary
+env.bak/ binary
+venv.bak/ binary
+
+# Ruby files
+*.gem binary
+*.rbc binary
+/.config binary
+/coverage/ binary
+/InstalledFiles binary
+/pkg/ binary
+/spec/reports/ binary
+/spec/examples.txt binary
+/test/tmp/ binary
+/test/version_tmp/ binary
+/tmp/ binary
+
+# Gradle files
+.gradle/ binary
+build/ binary
+!gradle/wrapper/gradle-wrapper.jar binary
+
+# Maven files
+target/ binary
+!.mvn/wrapper/maven-wrapper.jar binary
+
+# Eclipse files
+.project binary
+.classpath binary
+.settings/ binary
+
+# NetBeans files
+nbproject/ binary
+build/ binary
+nbbuild/ binary
+dist/ binary
+nbdist/ binary
+.nb-gradle/ binary
+
+# JetBrains files
+.idea/ binary
+*.iml binary
+*.ipr binary
+*.iws binary
+
+# Visual Studio files
+*.suo binary
+*.user binary
+*.userosscache binary
+*.sln.docstates binary
+*.userprefs binary
+*.pidb binary
+*.booproj binary
+*.svd binary
+*.pdb binary
+*.opendb binary
+*.opensdf binary
+*.sdf binary
+*.cachefile binary
+*.VC.db binary
+*.VC.VC.opendb binary
+
+# OS files
+.DS_Store binary
+Thumbs.db binary
+ehthumbs.db binary
+ehthumbs_vista.db binary
+Desktop.ini binary
+$RECYCLE.BIN/ binary
+
+# IDE files
+*.swp binary
+*.swo binary
+*~ binary
+
+# Temporary files
+*.tmp binary
+*.temp binary
+*.cache binary
+
+# Log files
+*.log text eol=crlf
+
+# SQL files
+*.sql text eol=crlf
+
+# HTML files
+*.html text eol=lf
+
+# TypeScript files
+*.ts text eol=lf
+
+# JavaScript files
+*.js text eol=lf
+
+# CSS files
+*.css text eol=lf
+
+# XML files
+*.xml text eol=crlf
+
+# JSON files
+*.json text eol=lf
+
+# YAML files
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# PowerShell files
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
+
+# XAML files
+*.xaml text eol=crlf
+*.xaml.cs text eol=crlf
+*.axaml text eol=crlf
+*.axaml.cs text eol=crlf
+
+# Project files
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.sln text eol=crlf
+*.suo binary
+*.user text eol=crlf
+*.userosscache binary
+
+# Resource files
+*.resx text eol=crlf
+*.Designer.cs text eol=crlf
+*.settings text eol=crlf
+
+# Configuration files
+*.config text eol=crlf
+*.manifest text eol=crlf
+*.app.config text eol=crlf
+*.web.config text eol=crlf
+
+# C# files
+*.cs text eol=crlf
+*.csproj text eol=crlf
+*.sln text eol=crlf
+*.xaml text eol=crlf
+*.config text eol=crlf
+*.manifest text eol=crlf
+*.settings text eol=crlf
+*.resx text eol=crlf
+*.Designer.cs text eol=crlf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+LICENSE text eol=lf
+README* text eol=lf
+CHANGELOG* text eol=lf
+CONTRIBUTING* text eol=lf
+FEATURES* text eol=lf
+TECHNICAL_DOCS* text eol=lf
+QUICKSTART* text eol=lf
+
+# Git files
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# GitHub files
+.github/** text eol=lf
+
+# Binary files
+*.exe binary
+*.dll binary
+*.pdb binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+*.svg binary
+*.webp binary
+*.zip binary
+*.7z binary
+*.rar binary
+
+# Archive files
+*.zip binary
+*.tar.gz binary
+*.tar.bz2 binary
+*.rar binary
+*.7z binary
+
+# Executable files
+*.exe binary
+*.msi binary
+*.msix binary
+*.appx binary
+*.appxbundle binary
