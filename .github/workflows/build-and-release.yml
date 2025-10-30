@@ -70,7 +70,7 @@ jobs:
           ## 🎉 i3mr0 MusicRP ${{ github.ref_name }} Release
           
           ### ✨ What's New
-          - Complete rebranding from AMWin-RP to i3mr0 MusicRP
+          - Complete rebranding to i3mr0 MusicRP
           - Enhanced AI-powered features and analytics
           - Theme management system with multiple themes
           - Performance monitoring and optimization
@@ -98,17 +98,13 @@ jobs:
           - .NET 8.0 Desktop Runtime (included in standard release)
           
           ### 🔗 Links
-          - **Documentation**: [Full Documentation](https://github.com/i3mr0/MusicRP/wiki)
-          - **Features**: [Complete Feature List](https://github.com/i3mr0/MusicRP/blob/master/FEATURES.md)
-          - **Technical Docs**: [Technical Documentation](https://github.com/i3mr0/MusicRP/blob/master/TECHNICAL_DOCS.md)
-          - **Quick Start**: [Quick Start Guide](https://github.com/i3mr0/MusicRP/blob/master/QUICKSTART.md)
+          - **Documentation**: [Full Documentation](https://github.com/i3mr01/MusicRP/wiki)
+          - **Features**: [Complete Feature List](https://github.com/i3mr01/MusicRP/blob/main/FEATURES.md)
+          - **Technical Docs**: [Technical Documentation](https://github.com/i3mr01/MusicRP/blob/main/TECHNICAL_DOCS.md)
+          - **Quick Start**: [Quick Start Guide](https://github.com/i3mr01/MusicRP/blob/main/QUICKSTART.md)
           
           ### 🐛 Bug Reports
           If you encounter any issues, please report them on our [GitHub Issues](https://github.com/i3mr0/MusicRP/issues) page.
-          
-          ### 🙏 Credits
-          Based on the excellent work by [PKBeam/AMWin-RP](https://github.com/PKBeam/AMWin-RP)
-          Enhanced and customized by i3mr0
           
           **Made with ❤️ by i3mr0**
         files: ./release/*
